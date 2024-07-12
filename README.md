@@ -3,7 +3,7 @@ System.Runtime.CompilerServices.Unsafe.dll
 
 ```PowerShell
 # URL của file DLL trên GitHub
-$url = "https://github.com/path/to/your/dll/System.Runtime.CompilerServices.Unsafe.dll"
+$url = "https://github.com/vegetaz/UnsafeDLL/raw/master/4.0.30319/System.Runtime.CompilerServices.Unsafe.dll"
 
 # Tải file DLL
 $webClient = New-Object System.Net.WebClient
